@@ -1,1 +1,1 @@
-nakpa nlp workshop
+Nakpa NLP workshop
