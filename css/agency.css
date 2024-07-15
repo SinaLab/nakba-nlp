@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #23a99e;
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #23a99e !important;
 }
 
 h1,
@@ -71,8 +71,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #23a99e;
+  border-color: #23a99e;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
