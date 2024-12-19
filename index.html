@@ -33,10 +33,39 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 <style>
+
 	#old
 	{
 	text-decoration: line-through;
 	}
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #23a99e;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #e9ecef;
+    }
+    td {
+      vertical-align: middle;
+    }
+    .activity-cell {
+      font-weight: bold;
+    }
+
 </style>
 </head>
 
@@ -515,8 +544,168 @@ In this talk, I will examine the Zionist language employed both for domestic and
 
     </div>
   </section>
+  
+    <section id="nlp_program" class="bg-light">
+    <style>
+        #nlp_program {
+            background-color: #eeeeee;
+        }
+    </style>
+       
+<div class="container">
+          
+  
+  <div class="row">
+        <div class="col-lg-12 text-center">
+    <h2 class="section-heading">Workshop Schedule</h2>
+            <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Authors</th>
+        <th>Paper ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>09:00 - 09:20</td>
+        <td class="activity-cell">Opening Session: Welcome by Workshop Chairs</td>
+        <td>Mustafa Jarrar and Camille Mansour</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>09:20 - 09:40</td>
+        <td class="activity-cell">Talk 1: Integrating Argumentation Features for Enhanced Propaganda Detection in Arabic Narratives on the Israeli War on Gaza.</td>
+        <td>Sara Nabhani, Claudia Borg, Kurt Micallef, and Khalid Al-Khatib</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>09:40 - 10:00</td>
+        <td class="activity-cell">Talk 2: Multilingual Propaganda Detection: Exploring Transformer-Based Models mBERT, XLM-RoBERTa, and mT5.</td>
+        <td>Mohamed Ibrahim Ragab, Ensaf Hussein Mohamed and Walaa Medhat</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>10:00 - 10:20</td>
+        <td class="activity-cell">Talk 3: Bias Detection in Media: Traditional Models vs. Transformers in Analyzing Social Media Coverage of the Israeli-Gaza Conflict.</td>
+        <td>Marryam Yahya Mohammed, Esraa Ismail Mohamed, Mariam Nabil Esmat, Yomna Ashraf Nagib, Nada Ahmed Radwan, Ziad Mohamed Elshaer and Ensaf Hussein Mohamed.</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>10:20 - 10:40</td>
+        <td class="activity-cell">Talk 4: The Missing Cause: An Analysis of Causal Attributions in Reporting on Palestine.</td>
+        <td>Paulina Garcia Corral, Hannah Bechara, Krishnamoorthy Manohara and Slava Jankin</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>10:40 - 11:00</td>
+        <td class="activity-cell">Talk 5: Deciphering Implicatures: On NLP and Oral Testimonies.</td>
+        <td>Zainab Sabra</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>11:00 - 11:15</td>
+        <td class="activity-cell">Coffee Break</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11:15 - 12:30</td>
+        <td class="activity-cell">Co-organized Public Discussion Panel: Digital Archives and Cultural Heritage in the LLMs Era. Panel Chair: Mo El-Haj</td>
+        <td>Muhammad Abdul-Mageed, The University of British Columbia, Canada. Antonio Moreno Sandoval, Autonomous University Madrid, Spain. Dawn Knight, Cardiff University, UK. Mustafa Jarrar, Birzeit University, Palestine</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12:30 - 13:00</td>
+        <td class="activity-cell">Lunch Break</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>13:00 - 14:00</td>
+        <td class="activity-cell">Co-organized Public Keynote: The Words Laundrette: Unmasking the Zionist Discourse on the Ongoing Nakba.</td>
+        <td>Ilan Pappe</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14:00 - 14:15</td>
+        <td class="activity-cell">Talk 6: Sentiment Analysis of Nakba Oral Histories: A Critical Study of Large Language Models.</td>
+        <td>Huthaifa I. Ashqar</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>14:15 - 14:30</td>
+        <td class="activity-cell">Talk 7: Arabic Topic Classification Corpus of the Nakba Short Stories</td>
+        <td>Osama Hamed and Nadeem Zaidkilani</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>14:30 - 14:45</td>
+        <td class="activity-cell">Talk 8: Exploring Author Style in Nakba Short Stories: A Comparative Study of Transformer-Based Models.</td>
+        <td>Osama Hamed and Nadeem Zaidkilani</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>14:45 - 15:00</td>
+        <td class="activity-cell">Coffee Break</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>15:00 - 15:20</td>
+        <td class="activity-cell">Talk 9: NakbaTR: A Turkish NER Dataset for Nakba Narratives.</td>
+        <td>Esma Fatıma Bilgin Tasdemir and Şaziye Betül Özateş</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>15:20 - 15:40</td>
+        <td class="activity-cell">Talk 10: The Nakba Lexicon: Building a Comprehensive Dataset from Palestinian Literature.</td>
+        <td>Izza AbuHaija, Salim Al Mandhari, Mo El-Haj, Jonas Sibony and Paul Rayson</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>15:40 - 16:00</td>
+        <td class="activity-cell">Talk 11: Cognitive Geographies of Catastrophe Narratives: Georeferenced Interview Transcriptions as Language Resource for Models of Forced Displacement.</td>
+        <td>Annie K. Lamar, Rick Castle, Carissa Chappell, Emmanouela Schoinoplokaki, Allene M. Seet, Amit Shilo and Chloe Nahas.</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>16:00 - 16:20</td>
+        <td class="activity-cell">Talk 12: Collective Memory and Narrative Cohesion: A Computational Study of Palestinian Refugee Oral Histories in Lebanon.</td>
+        <td>Ghadir A. Awad, Tamara N. Rayan, Lavinia Dunagan and David Gamba.</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>16:20 - 16:40</td>
+        <td class="activity-cell">Talk 13: A cultural shift in Western perceptions of Palestine.</td>
+        <td>Terry Regier and Muhammad Ali Khalidi.</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>16:40 - 17:00</td>
+        <td class="activity-cell">Talk 14: Detecting Inconsistencies in Narrative Elements of Cross Lingual Nakba Texts.</td>
+        <td>Nada Hamarsheh, Zahia Elabour, Aya Murra and Adnan Yahya.</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>17:00 - 17:15</td>
+        <td class="activity-cell">Closing Remarks and Wrap-Up</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+        </div>
+</div>
 
-    <section id="sponsors" class="bg-light">
+
+    </div>
+      
+    
+</section>
+
+    <section id="sponsors">
     <style>
         #sponsors {
             background-color: #eeeeee;
